@@ -17,6 +17,3 @@ namespace WebSamples.Controllers
         Task<List<Account>> ListOfAccounts([AliasAs("id")] int userid);
     }
 }
-
-
-//users?since=0

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InterfaceLibrary.Models
 {
-    public class Acconts
+    public class Account
     {
         public string login { get; set; }
         public string id { get; set; }
