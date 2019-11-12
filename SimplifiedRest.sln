@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meow", "ConsoleSample-usingCatApi\Meow.csproj", "{F89AADAA-1C9E-4125-B6CF-9AD1E6CD94F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meow", "samples\ConsoleSample-usingCatApi\Meow.csproj", "{F89AADAA-1C9E-4125-B6CF-9AD1E6CD94F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSamples", "WebSamples-usingGitHubApi\WebSamples.csproj", "{C273D768-B992-4E4D-A89A-BD0FB4A1B025}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSamples", "samples\WebSamples-usingGitHubApi\WebSamples.csproj", "{C273D768-B992-4E4D-A89A-BD0FB4A1B025}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
