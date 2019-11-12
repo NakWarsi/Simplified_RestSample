@@ -1,8 +1,43 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model InterfaceLibrary.Models.UserDetails
+@{
+	ViewData["Title"] = "GitHub User Details";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+	<h1 class="display-4">Welcome to refit Sample</h1>
+	<div style="background-color: black; color: white; padding: 20px;" class="text-sm-left">
+		<ul>
+			<Li>login:&nbsp;&nbsp; @Html.DisplayFor(model => model.login)</Li>
+			<li>id:&nbsp;&nbsp; @Html.DisplayFor(model => model.id)</li>
+			<li>node_id:&nbsp;&nbsp; @Html.DisplayFor(model => model.node_id)</li>
+			<li>avatar_url:&nbsp;&nbsp; @Html.DisplayFor(model => model.avatar_url)</li>
+			<li>gravatar_id:&nbsp;&nbsp; @Html.DisplayFor(model => model.gravatar_id)</li>
+			<li>url:&nbsp;&nbsp; @Html.DisplayFor(model => model.url)</li>
+			<li>html_url:&nbsp;&nbsp; @Html.DisplayFor(model => model.html_url)</li>
+			<li>followers_url:&nbsp;&nbsp; @Html.DisplayFor(model => model.followers_url)</li>
+			<li>following_url:&nbsp;&nbsp; @Html.DisplayFor(model => model.following_url)</li>
+			<li>gists_url:&nbsp;&nbsp; @Html.DisplayFor(model => model.gists_url)</li>
+			<li>starred_url:&nbsp;&nbsp; @Html.DisplayFor(model => model.starred_url)</li>
+			<li>subscriptions_url:&nbsp;&nbsp; @Html.DisplayFor(model => model.subscriptions_url)</li>
+			<li>organizations_url:&nbsp;&nbsp; @Html.DisplayFor(model => model.organizations_url)</li>
+			<li>repos_url:&nbsp;&nbsp; @Html.DisplayFor(model => model.repos_url)</li>
+			<li>events_url:&nbsp;&nbsp; @Html.DisplayFor(model => model.events_url)</li>
+			<li>received_events_url:&nbsp;&nbsp; @Html.DisplayFor(model => model.received_events_url)</li>
+			<li>type:&nbsp;&nbsp; @Html.DisplayFor(model => model.type)</li>
+			<li>site_admin:&nbsp;&nbsp; @Html.DisplayFor(model => model.site_admin)</li>
+			<li>name:&nbsp;&nbsp; @Html.DisplayFor(model => model.name)</li>
+			<li>company:&nbsp;&nbsp; @Html.DisplayFor(model => model.company)</li>
+			<li>blog:&nbsp;&nbsp; @Html.DisplayFor(model => model.blog)</li>
+			<li>location:&nbsp;&nbsp; @Html.DisplayFor(model => model.location)</li>
+			<li>email:&nbsp;&nbsp; @Html.DisplayFor(model => model.email)</li>
+			<li>hireable:&nbsp;&nbsp; @Html.DisplayFor(model => model.hireable)</li>
+			<li>bio:&nbsp;&nbsp; @Html.DisplayFor(model => model.bio)</li>
+			<li>public_repos:&nbsp;&nbsp; @Html.DisplayFor(model => model.public_repos)</li>
+			<li>public_gists:&nbsp;&nbsp; @Html.DisplayFor(model => model.public_gists)</li>
+			<li>followers:&nbsp;&nbsp; @Html.DisplayFor(model => model.followers)</li>
+			<li>following:&nbsp;&nbsp; @Html.DisplayFor(model => model.following)</li>
+			<li>created_at:&nbsp;&nbsp; @Html.DisplayFor(model => model.created_at)</li>
+			<li>updated_at:&nbsp;&nbsp; @Html.DisplayFor(model => model.updated_at)</li>
+		</ul>
+	</div>
 </div>
