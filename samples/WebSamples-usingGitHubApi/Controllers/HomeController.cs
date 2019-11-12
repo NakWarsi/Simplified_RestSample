@@ -29,7 +29,11 @@ namespace WebSamples.Controllers
             UserDetails userDetails;
             try
             {
-                userDetails = await _restApiService.GiTHubUserDetails();
+                // for By default 
+                //userDetails = await _restApiService.GiTHubUserDetails();
+
+                //set the value 
+                userDetails = await _restApiService.GetUser("krutikasawarkar");
             }
             catch (Exception e)
             {
@@ -38,6 +42,21 @@ namespace WebSamples.Controllers
             }
 
             return View(userDetails);
+        }
+
+
+        public async Task<ViewResult> Accounts()
+        {
+            try
+            {
+               //var Accounts = await _restApiService.;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+            return View();
         }
 
 
