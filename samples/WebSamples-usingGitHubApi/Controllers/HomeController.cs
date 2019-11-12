@@ -47,16 +47,18 @@ namespace WebSamples.Controllers
 
         public async Task<ViewResult> Accounts()
         {
+            List<Account> accounts;
             try
             {
-               //var Accounts = await _restApiService.;
+                //user id should be changing in positive integer value
+                  accounts = await _restApiService.ListOfAccounts(0);
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
                 throw;
             }
-            return View();
+            return View(accounts);
         }
 
 
