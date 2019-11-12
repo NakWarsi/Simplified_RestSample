@@ -1,0 +1,32 @@
+﻿@model List<Account>
+@{
+	ViewData["Title"] = "Accounts";
+}
+<h1>@ViewData["Title"]</h1>
+
+@foreach (var item in Model)
+{
+<div style="background-color: black; color: white; padding: 20px;" class="text-sm-left">
+	<ul>
+		<li>@item.login</li>
+		<li>@item.id</li>
+		<li>@item.node_id</li>
+		<li>@item.avatar_url</li>
+		<li>@item.gravatar_id</li>
+		<li>@item.url</li>
+		<li>@item.html_url</li>
+		<li>@item.followers_url</li>
+		<li>@item.following_url</li>
+		<li>@item.gists_url</li>
+		<li>@item.starred_url</li>
+		<li>@item.subscriptions_url</li>
+		<li>@item.organizations_url</li>
+		<li>@item.repos_url</li>
+		<li>@item.events_url</li>
+		<li>@item.received_events_url</li>
+		<li>@item.type</li>
+		<li>@item.site_admin</li>
+	</ul>
+</div>
+	<br />
+}
