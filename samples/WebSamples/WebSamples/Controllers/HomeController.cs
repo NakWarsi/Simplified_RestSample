@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Refit;
@@ -13,21 +14,22 @@ namespace WebSamples.Controllers
     public class HomeController : Controller
     {
         private readonly HttpClient _client;
-        private readonly IGitHubUserInterface _restApiService;
+        private readonly IGitHubApi _restApiService;
         public HomeController()
         {
             _client = new HttpClient
             {
-                BaseAddress = new Uri("https://api.github.com")
+                BaseAddress = new Uri("https://api.github.com"),
+                DefaultRequestHeaders = {UserAgent = { ProductInfoHeaderValue.Parse("NakWarsi")}}
             };
-            //_restApiService = RestService.For<IGitHubUserInterface>(_client);
-            var gitHubApi = RestService.For<IGitHubApi>("https://api.github.com");
+            _restApiService = RestService.For<IGitHubApi>(_client);
         }
         public async Task<ViewResult> Index()
         {
+            UserDetails userDetails;
             try
             {
-                var userDetails = await _restApiService.GiTHubUserDetails();
+                userDetails = await _restApiService.GiTHubUserDetails();
             }
             catch (Exception e)
             {
@@ -35,7 +37,7 @@ namespace WebSamples.Controllers
                 throw;
             }
 
-            return View();
+            return View(userDetails);
         }
 
         public IActionResult Privacy()
