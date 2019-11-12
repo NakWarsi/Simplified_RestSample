@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meow", "samples\ConsoleSample-usingCatApi\Meow.csproj", "{F89AADAA-1C9E-4125-B6CF-9AD1E6CD94F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSamples", "samples\WebSamples-usingGitHubApi\WebSamples.csproj", "{C273D768-B992-4E4D-A89A-BD0FB4A1B025}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSamples", "samples\WebSamples-usingGitHubApi\WebSamples.csproj", "{C273D768-B992-4E4D-A89A-BD0FB4A1B025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceLibrary", "InterLibraries\InterfaceLibrary\InterfaceLibrary.csproj", "{3E2BFC47-D6CA-4CCE-9999-1AF94191E4F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C273D768-B992-4E4D-A89A-BD0FB4A1B025}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C273D768-B992-4E4D-A89A-BD0FB4A1B025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C273D768-B992-4E4D-A89A-BD0FB4A1B025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E2BFC47-D6CA-4CCE-9999-1AF94191E4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2BFC47-D6CA-4CCE-9999-1AF94191E4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2BFC47-D6CA-4CCE-9999-1AF94191E4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2BFC47-D6CA-4CCE-9999-1AF94191E4F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
