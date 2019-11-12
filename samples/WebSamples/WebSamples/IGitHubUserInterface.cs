@@ -1,0 +1,6 @@
+﻿namespace WebSamples
+{
+    interface IGitHubUserInterface
+    {
+    }
+}
