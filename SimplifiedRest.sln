@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meow", "samples\ConsoleSample-usingCatApi\Meow.csproj", "{F89AADAA-1C9E-4125-B6CF-9AD1E6CD94F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSamples", "samples\WebSamples-usingGitHubApi\WebSamples.csproj", "{C273D768-B992-4E4D-A89A-BD0FB4A1B025}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSamples-usingGitHubApi", "samples\WebSamples-usingGitHubApi\WebSamples-usingGitHubApi.csproj", "{C273D768-B992-4E4D-A89A-BD0FB4A1B025}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceLibrary", "InterLibraries\InterfaceLibrary\InterfaceLibrary.csproj", "{3E2BFC47-D6CA-4CCE-9999-1AF94191E4F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceLibrary", "InterLibraries\InterfaceLibrary\InterfaceLibrary.csproj", "{3E2BFC47-D6CA-4CCE-9999-1AF94191E4F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppUseLibrary", "samples\WebSampleLibrary_UsingGitHubApi\WebAppUseLibrary.csproj", "{C48EA216-A8D6-40C3-813E-20D00089967E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppUseLibrary", "samples\WebSampleLibrary_UsingGitHubApi\WebAppUseLibrary.csproj", "{C48EA216-A8D6-40C3-813E-20D00089967E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiForTest", "ApiApplication\RestApiforTest\RestApiForTest.csproj", "{E3BB966F-9F71-4FE2-9EB0-A36103746270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApiForTest", "ApiApplication\RestApiforTest\RestApiForTest.csproj", "{E3BB966F-9F71-4FE2-9EB0-A36103746270}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
