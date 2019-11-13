@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryWithSDKandRefitServi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApiForTest", "ApiApplication\RestApiforTest\RestApiForTest.csproj", "{1A2E3E56-878E-4D2D-89D3-626DB0825120}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSampleUsingLocalApi", "samples\ConsoleSampleUsingLocalApi\ConsoleSampleUsingLocalApi.csproj", "{D7F3EC64-7473-4FD3-AB05-D7BE55009BE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1A2E3E56-878E-4D2D-89D3-626DB0825120}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A2E3E56-878E-4D2D-89D3-626DB0825120}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A2E3E56-878E-4D2D-89D3-626DB0825120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F3EC64-7473-4FD3-AB05-D7BE55009BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F3EC64-7473-4FD3-AB05-D7BE55009BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F3EC64-7473-4FD3-AB05-D7BE55009BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F3EC64-7473-4FD3-AB05-D7BE55009BE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
