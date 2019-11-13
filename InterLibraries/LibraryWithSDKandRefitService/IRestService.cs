@@ -4,7 +4,7 @@ using Refit;
 
 namespace LibraryWithSDKandRefitService
 {
-    interface IRestService
+    public interface IRestService
     {
         [Get("/api/values")]
         Task<IEnumerable<string>> GetWithNoParameter();
