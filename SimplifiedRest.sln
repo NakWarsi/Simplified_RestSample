@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSamples-usingGitHubApi",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceLibrary", "InterLibraries\InterfaceLibrary\InterfaceLibrary.csproj", "{3E2BFC47-D6CA-4CCE-9999-1AF94191E4F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSampleLibrary_UsingGitHubApi", "samples\WebSampleLibrary_UsingGitHubApi\WebSampleLibrary_UsingGitHubApi.csproj", "{C48EA216-A8D6-40C3-813E-20D00089967E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSampleLibrary_UsingGitHubApi", "samples\WebSample_usingGitHubApi&Library\WebSampleLibrary_UsingGitHubApi.csproj", "{C48EA216-A8D6-40C3-813E-20D00089967E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApiForTest", "ApiApplication\RestApiforTest\RestApiForTest.csproj", "{E3BB966F-9F71-4FE2-9EB0-A36103746270}"
 EndProject
