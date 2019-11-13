@@ -2,6 +2,6 @@
 {
     public class ModelForTest
     {
-        public string testVariable { get; set; }
+        public string TestVariable { get; set; }
     }
 }
