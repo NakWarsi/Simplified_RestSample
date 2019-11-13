@@ -10,9 +10,9 @@ namespace RestApiforTest.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return "Get Api with no argument was Called";
         }
 
         // GET api/values/5

@@ -7,7 +7,7 @@ namespace LibraryWithSDKandRefitService
     public interface IRestService
     {
         [Get("/api/values")]
-        Task<IEnumerable<string>> GetWithNoParameter();
+        Task<string> GetWithNoParameter();
 
         [Get("/api/values/{id}")]
         Task<string> GetWithParameter([AliasAs("id")] int id);
