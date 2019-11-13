@@ -19,25 +19,28 @@ namespace RestApiforTest.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            return "Get Api was called";
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] ModelForTest testObject)
+        public ActionResult<string> Post([FromBody] ModelForTest testObject)
         {
+            return "Post Api was Called";
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] ModelForTest testObject)
+        public ActionResult<string> Put(int id, [FromBody] ModelForTest testObject)
         {
+            return "Put Api was called";
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public ActionResult<string> Delete(int id)
         {
+            return "Delete Api was Called";
         }
     }
 }

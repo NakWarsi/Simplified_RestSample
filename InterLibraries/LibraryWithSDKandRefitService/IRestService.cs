@@ -13,12 +13,12 @@ namespace LibraryWithSDKandRefitService
         Task<string> GetWithParameter([AliasAs("id")] int id);
 
         [Post("/api/values")]
-        Task PostWithTestObject([Body] ModelForTest modelObject);
+        Task<string> PostWithTestObject([Body] ModelForTest modelObject);
 
         [Put("/api/values/{id}")]
-        Task PutWithParameters([AliasAs("id")] int id, [Body] ModelForTest modelObject);
+        Task<string> PutWithParameters([AliasAs("id")] int id, [Body] ModelForTest modelObject);
 
         [Delete("/api/values/{id}")]
-        Task DeleteWithParameters([AliasAs("id")] int id);
+        Task<string> DeleteWithParameters([AliasAs("id")] int id);
     }
 }
