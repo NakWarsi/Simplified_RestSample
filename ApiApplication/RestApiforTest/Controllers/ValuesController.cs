@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using LibraryWithSDKandRefitService;
 using Microsoft.AspNetCore.Mvc;
 
 namespace RestApiforTest.Controllers
@@ -23,13 +24,13 @@ namespace RestApiforTest.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] ModelForTest testObject)
         {
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void Put(int id, [FromBody] ModelForTest testObject)
         {
         }
 
