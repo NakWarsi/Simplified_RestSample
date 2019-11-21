@@ -1,4 +1,4 @@
-#                                            **Refit **
+#                                            Refit 
 
 ### What is Refit?
 
@@ -25,11 +25,9 @@ there are few scenarios we have discussed, one API developer can make life of de
 
 the other scenario is what if the API developer don't know anything about Refit and all we have is the their numbers of APIs now and their are numbers of developer using these Library. Now probability of mistakes are very high a every one need to create class(Object to deserialize) after looking the Rest APIs(which looks like mostly JSON or XML) in this scenario to reduce the mistake probability one single person can take responsibility of calling all the APIs and understanding everything and provide Interface(Refit) to application developers creating related objects and all.
 
-So let's discuss both of these scenarios one by one:-
-	Scenario one where **API Developer haven't share any Contract** & You need to use the API with minimum mistake,
-	Scenario two where **You are an API Developer and you don't want API users to struggle** using your Library.
+So let's discuss both of these scenarios one by one:-<br/>
+	[Scenario one where **API Developer haven't share any Contract** & You need to use the API with minimum mistakes](https://github.com/NakWarsi/Simplified_RestSample/blob/master/RefitForApiUser.md),<br/>	
+	[Scenario two where **You are an API Developer and you don't want API users to struggle** using your Library](https://github.com/NakWarsi/Simplified_RestSample/blob/master/RefitForAPIDeveloper.md)
 
-for More Information about refit 
-
-[visit at Github Refit Repo]: https://github.com/reactiveui/refit
+for More Information about refit [visit at Github Refit Repo](https://github.com/reactiveui/refit)
 
