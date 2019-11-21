@@ -1,6 +1,6 @@
 # Simplified_RestSample
 
-This repo has two project samples:
+This repo has two sample projects:
 
 - **SampleWithLocalAPIs.sln** uses the apis created locally 
 
